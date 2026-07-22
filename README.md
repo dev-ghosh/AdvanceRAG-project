@@ -10,7 +10,7 @@ Most beginner RAG projects are a single retrieve → generate call with no way t
 
 ## Architecture
 
-![Graph Architecture](graph.png)
+![Graph Architecture](images/graph.png)
 
 The pipeline is a state graph with the following flow:
 
