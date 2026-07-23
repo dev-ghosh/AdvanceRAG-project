@@ -1,0 +1,41 @@
+# Environment files (contains API keys — never commit these)
+.env
+.env.adv
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# PyCharm / JetBrains IDE
+.idea/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Cache / temp
+.cache/
+*.tmp
+
+# pytest
+.pytest_cache/
