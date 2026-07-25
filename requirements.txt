@@ -1,0 +1,14 @@
+python-dotenv
+langgraph
+langchain-core
+langchain-community
+langchain-classic
+langchain-groq
+langchain-huggingface
+langchain-qdrant
+langchain-tavily
+qdrant-client
+pydantic
+sentence-transformers
+beautifulsoup4
+tiktoken
