@@ -20,7 +20,7 @@ text_splitter = RecursiveCharacterTextSplitter.from_tiktoken_encoder(
 doc_splits = text_splitter.split_documents(docs_list)
 
 # vectorstore.add_documents(doc_splits)
-print(f"Successfully added {len(doc_splits)} chunks to Qdrant.")
+print(f"Successfully  added {len(doc_splits)} chunks to Qdrant.")
 
 retriever = vectorstore.as_retriever(
     search_kwargs={"k": 4}
